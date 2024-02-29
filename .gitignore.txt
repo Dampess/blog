@@ -1,0 +1,31 @@
+# Ignorer les fichiers temporaires générés par l'IDE
+.idea/
+
+# Ignorer les fichiers de sauvegarde
+*~
+
+# Ignorer les fichiers de configuration spécifiques à l'utilisateur
+*.config
+
+# Ignorer les fichiers de logs
+log/
+
+# Ignorer les fichiers de cache
+cache/
+
+# Ignorer les dépendances gérées par Composer
+vendor/
+
+# Ignorer les fichiers de configuration spécifiques à l'environnement
+.env
+
+# Ignorer les fichiers de build ou de compilation
+/build
+
+# Ignorer les fichiers sensibles contenant des informations confidentielles
+config.ini
+credentials.json
+
+# Ignorer le dossier doc
+
+# Ignorer le fichier README.md

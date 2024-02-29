@@ -1,0 +1,33 @@
+# Documentation du Projet Blog
+
+## Introduction
+Ce document fournit une documentation détaillée du projet de blog, y compris sa structure, ses fonctionnalités et ses technologies utilisées.
+
+## Description du Projet
+Le projet consiste en la création d'un blog en ligne permettant aux utilisateurs de consulter des articles publiés, d'ajouter des commentaires et, pour les utilisateurs administrateurs, de gérer le contenu du blog.
+
+## Fonctionnalités
+1. Affichage des articles : Les utilisateurs peuvent consulter une liste d'articles avec leurs titres, auteurs, dates de publication et extraits de contenu.
+2. Pagination : La liste des articles est paginée pour faciliter la navigation à travers les pages.
+3. Lecture complète des articles : Les utilisateurs peuvent lire l'article complet en cliquant sur un lien pour afficher tous les détails.
+4. Ajout de commentaires : Les utilisateurs peuvent ajouter des commentaires aux articles existants.
+5. Authentification : Les utilisateurs peuvent s'authentifier pour accéder à des fonctionnalités supplémentaires, telles que la publication d'articles ou la gestion des commentaires.
+6. Gestion du contenu : Les utilisateurs administrateurs peuvent publier de nouveaux articles, modifier ou supprimer des articles existants, et modérer les commentaires.
+
+## Structure du Projet
+Le projet est structuré en plusieurs parties :
+- **Classes PHP** : Contient les classes PHP pour la gestion des articles, des commentaires et des utilisateurs.
+- **Scripts PHP** : Contient les scripts PHP pour la manipulation des données et le rendu des pages.
+- **Templates** : Contient les fichiers de mise en page HTML pour les différentes pages du site.
+- **CSS et JavaScript** : Contient les fichiers de style CSS et les scripts JavaScript pour améliorer l'interface utilisateur.
+- **Base de Données** : Contient les scripts SQL pour la création et la gestion de la base de données.
+
+## Technologies Utilisées
+- **PHP** : Utilisé pour la logique côté serveur, la manipulation des données et la génération des pages HTML.
+- **MySQL** : Base de données relationnelle utilisée pour stocker les articles, les commentaires et les informations sur les utilisateurs.
+- **HTML/CSS/JavaScript** : Utilisés pour la structure, la présentation et l'interactivité des pages web.
+- **Bootstrap** : Framework CSS utilisé pour la conception responsive et l'amélioration de l'interface utilisateur.
+- **Sessions PHP** : Utilisées pour gérer l'authentification des utilisateurs et maintenir leur état de connexion.
+
+## Conclusion
+Ce document fournit une vue d'ensemble du projet de blog, y compris ses fonctionnalités, sa structure et les technologies utilisées. Il sert de guide pour les développeurs travaillant sur le projet et fournit une référence utile pour la maintenance et l'évolution future du blog.
